@@ -1,0 +1,476 @@
+.rye-regular {
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+}body{
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: radial-gradient(circle ,  #0000007c 1%, transparent), url(imgs/fundogotico.jfif);
+    background-position: center;
+    min-height: 100vh;
+    padding: 0;
+    margin-top: 150px;
+    padding: 0;
+}
+h1, h2 {
+    font-family: "Rye", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+p {
+    margin-top: 25px;
+}
+a {
+    font-family: "Rye", serif;
+    font-style: normal;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+}
+a:hover {
+    text-decoration: underline;
+}
+.menufixo-dashboard {
+    position:fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items:center;   
+    padding: 10px 0; 
+    z-index: 1000;
+}
+
+.menufixo-dashboard a {
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    margin: 0 70px;
+    border-radius: 7px;
+    transition: transform 0.9s ease; 
+    transition: background-color 0.9s ease;
+}
+.menufixo-dashboard a:hover {
+    color: black;
+    background-color: #ffffff;
+    border-radius: 7px;    
+    padding: 5px 0px;     
+    transform: scale(1.1);
+}
+.card-dashboard .button {
+    background-color: #e9e2e2;
+    align-items: center;
+    width: 170px;
+    font-weight: 700;
+    color:rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease;
+}
+.card-dashboard .button:hover{
+    transform: scale(1.2);
+}
+.produtos_carrinho {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px; 
+    width: 100%;
+}
+.card {
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block   ;
+    width: calc(33% - 30px);
+    margin: 15px; 
+    background: linear-gradient(to bottom, #000000 0%, #5c0505);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    vertical-align: top; 
+    min-height: 500px;
+    transition: transform 0.5s ease;
+}
+.card:hover{
+    transform: scale(1.03);
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    padding: 15px ;
+    transition: transform 0.2s ease;
+}
+
+.card h1:hover {
+    transform: scale(1.1);
+}
+.card p {
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+.card .button {
+    background-color: #000000;
+    color:white;
+    width: 170px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease;
+}
+.card a {
+    text-decoration: none;
+}
+.card .button:hover{
+    transform: scale(1.2);
+}
+.button {
+    color:#ffffff;
+    text-decoration: none;
+    width: 150px;
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    border-style: none;
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    background-color:rgb(155, 3, 3);
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+    align-items: center;
+}
+.button:hover {
+    font-family: "Rye", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: #470000;
+    background-color: #ffffff; 
+    transform: scale(1.1);
+}
+#logo{
+    width: 90px;
+    margin-left: 35px;
+    transition: transform 0.5s ease;
+}
+#logo:hover{
+    transform: scale(1.1);
+}
+table {
+    margin: auto;
+    width: 90%;
+    border-collapse: collapse;
+    background-color: #d6d6d6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    overflow: hidden;
+}
+table a {
+    color: #000000;
+}
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #918c8c;
+}
+th {
+    background-color: #868686;
+    color: #333;
+    font-weight: 600;
+}
+tr:hover {
+    background-color: #f9f9f9;
+}
+#contato {
+    font-family: "Rye", serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 40%;
+    max-width: 550px;
+    height: 35%;
+    padding: 15px 18px;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    border-radius: 5%;
+    background: linear-gradient(to bottom, #000000 0%, #5c0505);
+    color:#000000
+}
+#contato h1 {
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 15px;
+    color:#ffffff
+}
+#contato label{
+    text-align: left;
+    font-family: "Rye", serif;
+    font-weight:400 ;
+    color:#ffffff;
+    font-size: 20px;
+}
+#formAvaliacao h1 {
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 10px;
+    color:#ffffff;
+    
+}
+#formAvaliacao label{
+    font-family: "Rye", serif;
+    font-weight:400 ;
+    color:#ffffff;
+    font-size: 24px;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 6px; 
+    font-family: "Rye", serif;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    border: none;
+    align-items: center;
+}
+.formulario input,
+.formulario textarea {
+    background-color: rgba(128, 121, 121, 0.767);
+    font-family: "Rye", serif;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    width: 71%;
+    border-radius: 8px;
+}
+.formulario textarea {
+    border: none;
+    border-radius: 8px;
+    min-height: 100px;
+    font-family: "Rye", serif;
+}
+.formulario button {
+    background-color:#000000ea;
+    font-size: 16px;
+    color:#ffffff;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+}
+.formulario button:hover {
+    font-size: 16px;
+    background-color:#a10000;
+    font-weight: 400;
+    color:#ffffff;
+}
+input[type="text"],
+input[type="number"],
+input[type="password"],
+textarea {
+    width: 75%;
+    color: #000000;
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus
+textarea:focus {
+    border-color: #000000;
+    outline: none;
+    color: #000000;
+}
+
+input[type="submit"] {
+    background-color: #ffffff;
+    color: #000000;
+    width: 30%;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #800000;
+    transform: scale(1.1);
+}
+input::placeholder,
+textarea::placeholder {
+    color: rgb(0, 0, 0);
+    font-family: "Rye", serif;
+}
+#fundoescuro-login{
+    font-family: "Rye", serif;
+    font-weight:400 ;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+#fundoescuro-cadastro {
+    font-family: "Rye", serif;
+    font-weight:400;
+    position:fixed;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+ }
+#fundoescuro-logout{
+    font-family: "Rye", serif;
+    font-weight:400;
+    position:fixed;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+ }
+#formulario-login p{
+    text-align: center;
+    color: rgb(252, 88, 88);
+    padding-top:10px;
+    margin: 0%;
+  } 
+#formulario-cadastro p, h2{
+    color: white;
+    padding-top:10px;
+    margin: 0%;
+}
+.form-popup {
+    font-family: "Rye", serif;
+    font-weight:400 ;
+    display: none;
+    position: fixed;    
+    top: 15%;
+    right: 0%;
+    z-index: 999;
+}
+.form-container {
+    font-size: 20px;
+    color:white;
+    max-width: 450px;
+    height:550px;
+    border-radius: 5%;
+    padding: 10px;
+    background: linear-gradient(to bottom, #0f0f0f 0%, #5c0505); 
+    transition: transform 0.3s ease;
+}
+#formulario-logout .form-container {
+    width: 375px;
+    height: 325px; 
+}
+.form-container p, a{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin: auto;
+    font-weight: 400;
+   
+}
+.form-container:hover{
+    transform: scale(1.09); 
+}
+.form-container h1{
+    text-align: center;
+    color: white;
+    font-family: "Rye", serif;
+    font-weight:400 ;
+}
+.form-container input[type=text], 
+.form-container input[type=password] {
+    font-family: "Rye", serif;
+    font-weight:400 ;
+    width: 90%;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+.form-container input[type=text]:focus, 
+.form-container input[type=password]:focus {
+    background-color: #ddd;
+    font-family: "Rye", serif;
+    font-weight:400 ;
+    outline: none;
+}
+.form-container .btn {
+    font-size: 18px;
+    font-family: "Rye", serif;
+    font-weight:700 ;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+.form-container .cancel {
+    background-color:#000000;
+    border-radius: 10px;
+    font-weight: 400;
+    color: white;
+    transition: transform 0.5s ease;
+}
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+#ornamento {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.5s ease;
+}
+#ornamento:hover {
+    transform: scale(1.1);
+}
+
